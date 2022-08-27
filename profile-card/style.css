@@ -14,18 +14,34 @@
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
 }
 
 .container {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: url('./assets/bg-pattern-top.svg') -110% 150% no-repeat, url('./assets/bg-pattern-bottom.svg') 200% -60% no-repeat, linear-gradient(hsl(185, 75%, 39%), hsl(185, 75%, 39%));
 }
 
 .card-container {
-    background-color: #D3D3D3;
-    padding: 1rem;
+    background: url('./assets/bg-pattern-card.svg') no-repeat, linear-gradient(#FFF, #FFF);
+    padding: 2rem 0;
     border-radius: 20px;
+    width: 25%;
+    height: 65%;
+    box-shadow: 0 0 25px hsl(229, 23%, 23%, 0.3);
+}
+
+.profile-info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-img {
+    border-radius: 100%;
+    outline: 5px solid #FFF;
 }
 
 .name-age {
@@ -35,6 +51,12 @@ body {
 
 .location {
     text-align: center;
+    color: hsl(0, 0%, 59%);
+}
+
+.line {
+    border-top: 1px solid hsl(0, 0%, 59%);
+    border-bottom: none;
 }
 
 .user-statistics {
@@ -46,4 +68,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.stat-name {
+    color: hsl(0, 0%, 59%);
+    font-size: 16px;
 }
