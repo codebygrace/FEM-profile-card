@@ -1,12 +1,12 @@
 @media screen and (max-width: 376px) {
 
 .container {
-    background-position: 100% 50%, 50% 100%;
+    background-position: 120% 150%, -15% -60%;
 }
 
 .card-container {
     padding: 2rem 0;
-    width: 90%;
+    width: 85%;
     height: 70%;
 }
 
