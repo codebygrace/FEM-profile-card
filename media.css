@@ -1,33 +1,14 @@
 @media screen and (max-width: 376px) {
 
 .container {
-    background-position: 120% 150%, -15% -60%;
+    background-position: 120% 175%, -20% -75%;
 }
 
 .card-container {
-    padding: 2rem 0;
     width: 85%;
-    height: 70%;
 }
 
 .profile-info {
-    padding: 3.5rem 0 1rem 0;
-}
-
-.name-age {
-    gap: 1rem;
-    padding-top: 1rem;
-}
-
-.location {
-    padding-top: 0.5rem;
-}
-
-.line {
-    margin-top: 0.5rem;
-}
-
-.stat {
-    padding: 1rem;
+    padding-bottom: 1.5rem;
 }
 }
