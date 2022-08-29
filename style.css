@@ -21,16 +21,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     height: 100vh;
-    background: url('./assets/bg-pattern-top.svg') -110% 150% no-repeat, url('./assets/bg-pattern-bottom.svg') 200% -60% no-repeat, linear-gradient(hsl(185, 75%, 39%), hsl(185, 75%, 39%));
+    background: url('./assets/bg-pattern-top.svg') -75% 225% no-repeat, url('./assets/bg-pattern-bottom.svg') 160% -200% no-repeat, linear-gradient(hsl(185, 75%, 39%), hsl(185, 75%, 39%));
 }
 
 .card-container {
-    background: url('./assets/bg-pattern-card.svg') no-repeat, linear-gradient(#FFF, #FFF);
+    background: url('./assets/bg-pattern-card.svg') no-repeat 50% 0, linear-gradient(#FFF, #FFF);
     padding: 2rem 0;
     border-radius: 20px;
-    width: 25%;
-    height: 60%;
+    width: 24%;
+    height: 45%;
     box-shadow: 0 0 25px hsl(229, 23%, 23%, 0.3);
 }
 
