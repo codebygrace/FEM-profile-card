@@ -1,14 +1,15 @@
 @media screen and (max-width: 376px) {
 
 .container {
-    background-position: 120% 175%, -20% -75%;
+    background-position: 130% 305%, -25% -225%;
 }
 
 .card-container {
     width: 85%;
+    height: 48%;
 }
 
 .profile-info {
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
 }
 }
