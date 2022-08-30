@@ -23,14 +23,14 @@ body {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background: url('./assets/bg-pattern-top.svg') -120% 195% no-repeat, url('./assets/bg-pattern-bottom.svg') 200% -155% no-repeat, linear-gradient(hsl(185, 75%, 39%), hsl(185, 75%, 39%));
+    background: url('./assets/bg-pattern-top.svg') -60% 205% no-repeat, url('./assets/bg-pattern-bottom.svg') 150% -155% no-repeat, linear-gradient(hsl(185, 75%, 39%), hsl(185, 75%, 39%));
 }
 
 .card-container {
     background: url('./assets/bg-pattern-card.svg') no-repeat 50% 0, linear-gradient(#FFF, #FFF);
     padding: 2rem 0;
     border-radius: 20px;
-    width: 25%;
+    width: 24%;
     height: 50%;
     box-shadow: 0 0 25px hsl(229, 23%, 23%, 0.3);
 }
